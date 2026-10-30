@@ -1,0 +1,18 @@
+# Entorno de la PC (modelos de referencia, AR, SARIMAX, XGBoost y LightGBM; 104 corridas), Python 3.13.
+# Versiones instaladas el 29/10/2026 en el entorno local utilizado para esas corridas. No se guardo un registro de versiones por corrida
+# (ver REPRODUCIBILIDAD.md).
+numpy==2.2.3
+pandas==2.2.3
+scipy==1.15.2
+patsy==1.0.3
+statsmodels==0.14.5
+scikit-learn==1.6.1
+joblib==1.6.0
+threadpoolctl==3.7.0
+optuna==5.0.0
+SQLAlchemy==2.1.5
+xgboost==3.4.1
+lightgbm==4.7.0
+openpyxl==3.1.5
+matplotlib==3.11.2
+pytest

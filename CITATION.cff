@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Si utiliza este código o estos resultados, cítelos como se indica a continuación."
+title: "Pronóstico de la demanda eléctrica horaria por región de México: código y resultados verificables"
+type: software
+authors:
+  - family-names: "Torres Ramos"
+    given-names: "Carlos Augusto"
+version: "1.0.0"
+license: MIT
+# Código bajo licencia MIT; resultados originales y documentación bajo CC BY 4.0 (véase LICENSE-RESULTADOS.md).
+abstract: "Código, configuraciones, hiperparámetros, métricas y predicciones de la tesis «Series de Tiempo para la predicción de Consumo Eléctrico» (Maestría en Investigación en Ciencia de Datos, BUAP): 13 modelos, ocho regiones, cuatro semanas de prueba y 216 corridas."
+repository-code: "https://github.com/CarlosT0503/Tesis-Forecasting-Demanda-Electrica"

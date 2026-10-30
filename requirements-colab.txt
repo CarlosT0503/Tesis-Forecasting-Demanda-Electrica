@@ -1,0 +1,15 @@
+# Entorno de Colab (FCNN, LSTM directa, LSTM sobre residuo y Ensemble STL; 112 corridas), Python 3.13.16.
+# Versiones registradas por el propio cuaderno en results/ambiente/ambiente_{PRINCIPAL,W2,W3}.json (identicas en los tres trabajadores).
+tensorflow==2.21.0
+keras==3.13.2
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.16.3
+statsmodels==0.15.0
+scikit-learn==1.6.1
+optuna==5.0.0
+xgboost==3.4.1
+lightgbm==4.6.0
+# No registradas por el cuaderno (se uso la version disponible en Colab en ese momento):
+openpyxl
+pytest
