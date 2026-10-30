@@ -1,0 +1,14 @@
+modelo,configuraciones,S1,S2,S3,S4,total
+AR,1,8,8,8,8,32
+AR_Resid_Trend_Seasonal,1,8,8,8,8,32
+ENSEMBLE_STL_LSTMtrend_FCNNseason_ARresid_EXOG_ALL_Lag168,7,56,56,56,56,224
+FCNN_Multivariada_EXOG_Lag168,7,56,56,56,56,224
+LSTM_Directa,7,56,56,56,56,224
+LSTM_Resid_Trend_Seasonal,7,56,56,56,56,224
+LightGBM_Tuned,7,56,56,56,56,224
+Naive,1,8,8,8,8,32
+Naive_Trend,1,8,8,8,8,32
+Naive_Trend_Seasonal,1,8,8,8,8,32
+SARIMAX_1_1_1__1_0_1_168_EXOG_2M,7,56,56,56,56,224
+STL_FCNN_Multivariada_Residuos_EXOG_Lag168,7,56,56,56,56,224
+XGBoost_Tuned_2Semanas,7,56,56,56,56,224

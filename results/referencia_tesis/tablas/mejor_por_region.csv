@@ -1,0 +1,9 @@
+region,primero_4_semanas,MAPE_1,segundo_4_semanas,MAPE_2,ganadores_distintos_en_4_semanas,peor,MAPE_peor
+BCA,SARIMAX,6.72,AR,7.56,2,Naive + tendencia,14.98
+CEN,SARIMAX,2.68,FCNN sobre residuo STL,3.1,2,Naive,11.03
+NES,LightGBM,10.42,AR sobre residuo STL,11.46,4,FCNN directa,37.07
+NOR,FCNN sobre residuo STL,6.94,Naive + tendencia + estacionalidad,7.14,4,Naive,15.11
+NTE,AR,5.99,Naive + tendencia + estacionalidad,6.16,4,Naive,10.25
+OCC,SARIMAX,3.58,Naive + tendencia + estacionalidad,3.79,3,LSTM directa,11.13
+ORI,SARIMAX,5.26,AR,5.64,3,Naive,10.34
+PEN,XGBoost,5.14,SARIMAX,5.83,3,FCNN sobre residuo STL,16.2

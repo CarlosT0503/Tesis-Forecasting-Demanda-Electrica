@@ -1,0 +1,14 @@
+A,B,n,A_mejor,A_peor,mediana_dif_pp,media_dif_pp
+Naive + tendencia + estacionalidad,SARIMAX,32,11,21,0.94,1.4
+Naive + tendencia + estacionalidad,AR,32,15,17,0.37,0.88
+Naive + tendencia + estacionalidad,Naive + tendencia,32,30,2,-4.2,-3.9
+Naive + tendencia + estacionalidad,Naive,32,28,4,-5.04,-4.87
+Naive + tendencia + estacionalidad,AR sobre residuo STL,32,19,13,-0.15,0.04
+Naive + tendencia + estacionalidad,XGBoost,32,18,14,-0.25,-0.23
+Naive + tendencia + estacionalidad,LightGBM,32,21,11,-0.33,0.13
+SARIMAX,AR,32,21,11,-0.66,-0.52
+LSTM directa,LSTM sobre residuo STL,32,11,21,1.66,1.93
+LSTM directa,FCNN directa,32,16,16,0.33,-2.45
+LSTM directa,Naive + tendencia + estacionalidad,32,9,23,2.65,2.52
+LSTM directa,Naive,32,20,12,-3.7,-2.34
+LSTM sobre residuo STL,Ensemble STL,32,14,18,0.47,0.3

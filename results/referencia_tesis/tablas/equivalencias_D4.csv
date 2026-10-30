@@ -1,0 +1,169 @@
+modelo,configuracion_1,configuracion_2,identicas_en,de,involucra_referencia,equivalentes_en_todo_el_estudio
+SARIMAX,Exportacion,Generacion,0,32,False,False
+SARIMAX,Exportacion,IGAE,0,32,False,False
+SARIMAX,Exportacion,Importacion,16,32,False,False
+SARIMAX,Exportacion,Temperatura,0,32,False,False
+SARIMAX,Exportacion,Temperatura+IGAE,0,32,False,False
+SARIMAX,Exportacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+SARIMAX,Generacion,IGAE,0,32,False,False
+SARIMAX,Generacion,Importacion,0,32,False,False
+SARIMAX,Generacion,Temperatura,0,32,False,False
+SARIMAX,Generacion,Temperatura+IGAE,0,32,False,False
+SARIMAX,Generacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+SARIMAX,IGAE,Importacion,0,32,False,False
+SARIMAX,IGAE,Temperatura,0,32,False,False
+SARIMAX,IGAE,Temperatura+IGAE,0,32,False,False
+SARIMAX,IGAE,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+SARIMAX,Importacion,Temperatura,0,32,False,False
+SARIMAX,Importacion,Temperatura+IGAE,0,32,False,False
+SARIMAX,Importacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+SARIMAX,Temperatura,Temperatura+IGAE,0,32,False,False
+SARIMAX,Temperatura,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+SARIMAX,Temperatura+IGAE,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+XGBoost,Exportacion,Generacion,0,32,False,False
+XGBoost,Exportacion,IGAE,32,32,False,True
+XGBoost,Exportacion,Importacion,32,32,False,True
+XGBoost,Exportacion,Temperatura,32,32,False,True
+XGBoost,Exportacion,Temperatura+IGAE,0,32,False,False
+XGBoost,Exportacion,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+XGBoost,Generacion,IGAE,0,32,False,False
+XGBoost,Generacion,Importacion,0,32,False,False
+XGBoost,Generacion,Temperatura,0,32,False,False
+XGBoost,Generacion,Temperatura+IGAE,0,32,False,False
+XGBoost,Generacion,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+XGBoost,IGAE,Importacion,32,32,False,True
+XGBoost,IGAE,Temperatura,32,32,False,True
+XGBoost,IGAE,Temperatura+IGAE,0,32,False,False
+XGBoost,IGAE,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+XGBoost,Importacion,Temperatura,32,32,False,True
+XGBoost,Importacion,Temperatura+IGAE,0,32,False,False
+XGBoost,Importacion,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+XGBoost,Temperatura,Temperatura+IGAE,0,32,False,False
+XGBoost,Temperatura,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+XGBoost,Temperatura+IGAE,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LightGBM,Exportacion,Generacion,0,32,False,False
+LightGBM,Exportacion,IGAE,32,32,False,True
+LightGBM,Exportacion,Importacion,32,32,False,True
+LightGBM,Exportacion,Temperatura,32,32,False,True
+LightGBM,Exportacion,Temperatura+IGAE,32,32,False,True
+LightGBM,Exportacion,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LightGBM,Generacion,IGAE,0,32,False,False
+LightGBM,Generacion,Importacion,0,32,False,False
+LightGBM,Generacion,Temperatura,0,32,False,False
+LightGBM,Generacion,Temperatura+IGAE,0,32,False,False
+LightGBM,Generacion,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,28,32,True,False
+LightGBM,IGAE,Importacion,32,32,False,True
+LightGBM,IGAE,Temperatura,32,32,False,True
+LightGBM,IGAE,Temperatura+IGAE,32,32,False,True
+LightGBM,IGAE,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LightGBM,Importacion,Temperatura,32,32,False,True
+LightGBM,Importacion,Temperatura+IGAE,32,32,False,True
+LightGBM,Importacion,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LightGBM,Temperatura,Temperatura+IGAE,32,32,False,True
+LightGBM,Temperatura,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LightGBM,Temperatura+IGAE,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+FCNN directa,Exportacion,Generacion,0,32,False,False
+FCNN directa,Exportacion,IGAE,0,32,False,False
+FCNN directa,Exportacion,Importacion,0,32,False,False
+FCNN directa,Exportacion,Temperatura,0,32,False,False
+FCNN directa,Exportacion,Temperatura+IGAE,0,32,False,False
+FCNN directa,Exportacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+FCNN directa,Generacion,IGAE,0,32,False,False
+FCNN directa,Generacion,Importacion,0,32,False,False
+FCNN directa,Generacion,Temperatura,0,32,False,False
+FCNN directa,Generacion,Temperatura+IGAE,0,32,False,False
+FCNN directa,Generacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+FCNN directa,IGAE,Importacion,0,32,False,False
+FCNN directa,IGAE,Temperatura,0,32,False,False
+FCNN directa,IGAE,Temperatura+IGAE,0,32,False,False
+FCNN directa,IGAE,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+FCNN directa,Importacion,Temperatura,0,32,False,False
+FCNN directa,Importacion,Temperatura+IGAE,0,32,False,False
+FCNN directa,Importacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+FCNN directa,Temperatura,Temperatura+IGAE,0,32,False,False
+FCNN directa,Temperatura,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+FCNN directa,Temperatura+IGAE,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LSTM directa,Exportacion,Generacion,0,32,False,False
+LSTM directa,Exportacion,IGAE,0,32,False,False
+LSTM directa,Exportacion,Importacion,0,32,False,False
+LSTM directa,Exportacion,Temperatura,0,32,False,False
+LSTM directa,Exportacion,Temperatura+IGAE,0,32,False,False
+LSTM directa,Exportacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LSTM directa,Generacion,IGAE,0,32,False,False
+LSTM directa,Generacion,Importacion,0,32,False,False
+LSTM directa,Generacion,Temperatura,0,32,False,False
+LSTM directa,Generacion,Temperatura+IGAE,0,32,False,False
+LSTM directa,Generacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LSTM directa,IGAE,Importacion,0,32,False,False
+LSTM directa,IGAE,Temperatura,0,32,False,False
+LSTM directa,IGAE,Temperatura+IGAE,0,32,False,False
+LSTM directa,IGAE,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LSTM directa,Importacion,Temperatura,0,32,False,False
+LSTM directa,Importacion,Temperatura+IGAE,0,32,False,False
+LSTM directa,Importacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LSTM directa,Temperatura,Temperatura+IGAE,0,32,False,False
+LSTM directa,Temperatura,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LSTM directa,Temperatura+IGAE,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+FCNN sobre residuo STL,Exportacion,Generacion,0,32,False,False
+FCNN sobre residuo STL,Exportacion,IGAE,0,32,False,False
+FCNN sobre residuo STL,Exportacion,Importacion,0,32,False,False
+FCNN sobre residuo STL,Exportacion,Temperatura,0,32,False,False
+FCNN sobre residuo STL,Exportacion,Temperatura+IGAE,0,32,False,False
+FCNN sobre residuo STL,Exportacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+FCNN sobre residuo STL,Generacion,IGAE,0,32,False,False
+FCNN sobre residuo STL,Generacion,Importacion,0,32,False,False
+FCNN sobre residuo STL,Generacion,Temperatura,0,32,False,False
+FCNN sobre residuo STL,Generacion,Temperatura+IGAE,0,32,False,False
+FCNN sobre residuo STL,Generacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+FCNN sobre residuo STL,IGAE,Importacion,0,32,False,False
+FCNN sobre residuo STL,IGAE,Temperatura,0,32,False,False
+FCNN sobre residuo STL,IGAE,Temperatura+IGAE,0,32,False,False
+FCNN sobre residuo STL,IGAE,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+FCNN sobre residuo STL,Importacion,Temperatura,0,32,False,False
+FCNN sobre residuo STL,Importacion,Temperatura+IGAE,0,32,False,False
+FCNN sobre residuo STL,Importacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+FCNN sobre residuo STL,Temperatura,Temperatura+IGAE,0,32,False,False
+FCNN sobre residuo STL,Temperatura,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+FCNN sobre residuo STL,Temperatura+IGAE,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LSTM sobre residuo STL,Exportacion,Generacion,0,32,False,False
+LSTM sobre residuo STL,Exportacion,IGAE,0,32,False,False
+LSTM sobre residuo STL,Exportacion,Importacion,0,32,False,False
+LSTM sobre residuo STL,Exportacion,Temperatura,0,32,False,False
+LSTM sobre residuo STL,Exportacion,Temperatura+IGAE,0,32,False,False
+LSTM sobre residuo STL,Exportacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LSTM sobre residuo STL,Generacion,IGAE,0,32,False,False
+LSTM sobre residuo STL,Generacion,Importacion,0,32,False,False
+LSTM sobre residuo STL,Generacion,Temperatura,0,32,False,False
+LSTM sobre residuo STL,Generacion,Temperatura+IGAE,0,32,False,False
+LSTM sobre residuo STL,Generacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LSTM sobre residuo STL,IGAE,Importacion,0,32,False,False
+LSTM sobre residuo STL,IGAE,Temperatura,0,32,False,False
+LSTM sobre residuo STL,IGAE,Temperatura+IGAE,0,32,False,False
+LSTM sobre residuo STL,IGAE,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LSTM sobre residuo STL,Importacion,Temperatura,0,32,False,False
+LSTM sobre residuo STL,Importacion,Temperatura+IGAE,0,32,False,False
+LSTM sobre residuo STL,Importacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LSTM sobre residuo STL,Temperatura,Temperatura+IGAE,0,32,False,False
+LSTM sobre residuo STL,Temperatura,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+LSTM sobre residuo STL,Temperatura+IGAE,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+Ensemble STL,Exportacion,Generacion,0,32,False,False
+Ensemble STL,Exportacion,IGAE,0,32,False,False
+Ensemble STL,Exportacion,Importacion,0,32,False,False
+Ensemble STL,Exportacion,Temperatura,0,32,False,False
+Ensemble STL,Exportacion,Temperatura+IGAE,0,32,False,False
+Ensemble STL,Exportacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+Ensemble STL,Generacion,IGAE,0,32,False,False
+Ensemble STL,Generacion,Importacion,0,32,False,False
+Ensemble STL,Generacion,Temperatura,0,32,False,False
+Ensemble STL,Generacion,Temperatura+IGAE,0,32,False,False
+Ensemble STL,Generacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+Ensemble STL,IGAE,Importacion,0,32,False,False
+Ensemble STL,IGAE,Temperatura,0,32,False,False
+Ensemble STL,IGAE,Temperatura+IGAE,0,32,False,False
+Ensemble STL,IGAE,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+Ensemble STL,Importacion,Temperatura,0,32,False,False
+Ensemble STL,Importacion,Temperatura+IGAE,0,32,False,False
+Ensemble STL,Importacion,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+Ensemble STL,Temperatura,Temperatura+IGAE,0,32,False,False
+Ensemble STL,Temperatura,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False
+Ensemble STL,Temperatura+IGAE,Temperatura+IGAE+Generacion+Importacion+Exportacion,0,32,True,False

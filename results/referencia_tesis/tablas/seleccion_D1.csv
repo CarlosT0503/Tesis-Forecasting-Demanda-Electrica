@@ -1,0 +1,14 @@
+modelo,familia,exogenas_referencia,corridas,filas,esperadas
+Naive,Referencia,(ninguna),4,32,32
+Naive + tendencia,Referencia,(ninguna),4,32,32
+Naive + tendencia + estacionalidad,Referencia,(ninguna),4,32,32
+AR,Estadístico,(ninguna),4,32,32
+SARIMAX,Estadístico,Temperatura+IGAE+Generacion+Importacion+Exportacion,4,32,32
+XGBoost,Aprendizaje automático,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,4,32,32
+LightGBM,Aprendizaje automático,Temperatura+Primarias+Secundarias+Terciarias+IGAE+Generacion+Importacion+Exportacion,4,32,32
+FCNN directa,Aprendizaje profundo,Temperatura+IGAE+Generacion+Importacion+Exportacion,4,32,32
+LSTM directa,Aprendizaje profundo,Temperatura+IGAE+Generacion+Importacion+Exportacion,4,32,32
+AR sobre residuo STL,Híbrido con STL,(ninguna),4,32,32
+FCNN sobre residuo STL,Híbrido con STL,Temperatura+IGAE+Generacion+Importacion+Exportacion,4,32,32
+LSTM sobre residuo STL,Híbrido con STL,Temperatura+IGAE+Generacion+Importacion+Exportacion,4,32,32
+Ensemble STL,Híbrido con STL,Temperatura+IGAE+Generacion+Importacion+Exportacion,4,32,32

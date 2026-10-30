@@ -1,0 +1,3 @@
+## Celda 3 - Progreso de las corridas de Colab (solo lectura)
+
+Muestra cuantas de las **112** corridas asignadas a Colab estan completas, parciales o sin iniciar, por sesion (**A** = S4 y S1; **B** = S2 y S3), cuales faltan (`regiones_ok` = regiones ya guardadas de 8), los ultimos fallos de subproceso (con su clase: `ram_sistema`, `ram_python`, `gpu_memoria`, `error_codigo`, ...) y las ultimas muestras de memoria. Tambien avisa si alguna LSTM directa tiene un numero de intentos de Optuna distinto del presupuesto (10). Guarda la lista de faltantes en `_auditoria/faltan_colab.csv`. **No modifica ningun resultado**; puedes ejecutarla en otra pestana mientras corre el lanzamiento.

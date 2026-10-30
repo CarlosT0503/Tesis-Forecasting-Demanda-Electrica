@@ -1,0 +1,5 @@
+{
+  "trabajador": "PC",
+  "nota": "Versiones instaladas el 2026-10-29 en el entorno local usado para las corridas de la PC. No se guardo un registro de versiones por corrida; las corridas guardan su semilla, su configuracion y el identificador del codigo (git_commit) en results/configuracion_corridas.csv.",
+  "versiones": {"python": "3.13.1", "numpy": "2.2.3", "pandas": "2.2.3", "scipy": "1.15.2", "statsmodels": "0.14.5", "optuna": "5.0.0", "xgboost": "3.4.1", "lightgbm": "4.7.0", "sklearn": "1.6.1", "matplotlib": "3.11.2"}
+}

@@ -1,0 +1,6 @@
+comparacion,directa,variante_STL,n_pares,dif_MAPE_media,dif_MAPE_mediana,STL_mejor,STL_peor,empate_a_2_decimales,MAPE_media_directa,MAPE_media_STL
+FCNN: sobre residuo STL frente a directa,FCNN directa,FCNN sobre residuo STL,32,-4.15578433202745,-1.0148143364635378,18,14,0,12.804762357258502,8.648978025231052
+LSTM: sobre residuo STL frente a directa,LSTM directa,LSTM sobre residuo STL,32,-1.9290407885610947,-1.655150551813584,21,11,0,10.35223692293093,8.423196134369835
+LSTM directa frente a Ensemble STL,LSTM directa,Ensemble STL,32,-2.2325876785611847,-2.458848623367808,24,8,0,10.35223692293093,8.119649244369743
+AR: sobre residuo STL frente a directo,AR,AR sobre residuo STL,32,0.832980612750492,-0.1825523411019545,16,16,0,6.9522308985359285,7.785211511286421
+Naive + tendencia: con estacionalidad (STL) frente a sin ella,Naive + tendencia,Naive + tendencia + estacionalidad,32,-3.900946507735251,-4.203000491705785,30,2,0,11.730609983147609,7.829663475412357

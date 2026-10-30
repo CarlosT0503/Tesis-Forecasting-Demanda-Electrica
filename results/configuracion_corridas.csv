@@ -1,0 +1,217 @@
+ventana,test_start,test_end,modelo,exogenas,train_hours,forecast_horizon,optuna_n_trials,seed,notas,sufijo_run_name,run_name,git_commit,generated_at,origen
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,ar_resid_trend_seasonal,[],3600,168,,42,S-ext T1,,AR_Resid_Trend_Seasonal_train3600h_fh168h,7b2a0a9,2026-10-18T01:21:10.730771+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,ar,[],3600,168,,42,S-ext T1 baseline ventana fija,,AR_train3600h_fh168h,7b2a0a9,2026-10-18T01:28:10.134487+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,ensemble_stl,"[""Exportacion""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Exp,,2026-10-25T22:28:42.798704+00:00,W2
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,ensemble_stl,"[""Generacion""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Gen,,2026-10-25T22:39:44.592412+00:00,W3
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,ensemble_stl,"[""IGAE""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_IGAE,,2026-10-25T22:11:57.029938+00:00,W3
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,ensemble_stl,"[""Importacion""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Imp,,2026-10-25T22:21:20.915380+00:00,PRINCIPAL
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,ensemble_stl,"[""Temperatura""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Temp,,2026-10-25T22:03:56.081209+00:00,W2
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,ensemble_stl,"[""Temperatura"", ""IGAE""]",3600,168,5.0,42,S-ext T3 Temp+IGAE,,Ensemble_STL_train3600h_fh168h_Temp-IGAE,,2026-10-25T22:45:53.659449+00:00,PRINCIPAL
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,ensemble_stl,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",3600,168,5.0,42,S-ext T2,,Ensemble_STL_train3600h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-22T18:29:17.469359+00:00,PRINCIPAL
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,fcnn,"[""Exportacion""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Exp,,2026-10-25T23:27:32.330920+00:00,W3
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,fcnn,"[""Generacion""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Gen,,2026-10-25T23:09:05.969304+00:00,PRINCIPAL
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,fcnn,"[""IGAE""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_IGAE,,2026-10-25T22:55:40.838864+00:00,W2
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,fcnn,"[""Importacion""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Imp,,2026-10-25T23:32:13.947390+00:00,PRINCIPAL
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,fcnn,"[""Temperatura""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Temp,,2026-10-25T23:05:07.943493+00:00,W3
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,fcnn,"[""Temperatura"", ""IGAE""]",3600,168,5.0,42,S-ext T3 Temp+IGAE,,FCNN_train3600h_fh168h_Temp-IGAE,,2026-10-25T23:19:12.755429+00:00,W2
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,fcnn,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",3600,168,5.0,42,S-ext T2,,FCNN_train3600h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-18T18:35:35.563705+00:00,PRINCIPAL
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_direct,"[""Exportacion""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Exp,,2026-10-26T00:44:38.815386+00:00,W2
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_direct,"[""Generacion""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Gen,,2026-10-26T00:12:39.134411+00:00,W2
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_direct,"[""IGAE""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_IGAE,,2026-10-25T23:51:32.015960+00:00,W3
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_direct,"[""Importacion""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Imp,,2026-10-26T00:21:33.271498+00:00,W3
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_direct,"[""Temperatura""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Temp,,2026-10-25T23:40:55.457865+00:00,W2
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_direct,"[""Temperatura"", ""IGAE""]",2160,168,10.0,42,S-ext T3 Temp+IGAE,,LSTM_Directa_train2160h_fh168h_Temp-IGAE,,2026-10-26T00:55:04.663018+00:00,W3
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_direct,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",2160,168,10.0,42,S-ext T2,,LSTM_Directa_train2160h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-18T19:12:54.491169+00:00,PRINCIPAL
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_resid,"[""Exportacion""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Exp,,2026-10-26T01:41:59.686146+00:00,W3
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_resid,"[""Generacion""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Gen,,2026-10-26T01:30:58.714204+00:00,W3
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_resid,"[""IGAE""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_IGAE,,2026-10-26T01:19:38.560812+00:00,W2
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_resid,"[""Importacion""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Imp,,2026-10-26T01:34:33.006597+00:00,W2
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_resid,"[""Temperatura""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Temp,,2026-10-25T23:56:37.893804+00:00,PRINCIPAL
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_resid,"[""Temperatura"", ""IGAE""]",3600,168,5.0,42,S-ext T3 Temp+IGAE,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Temp-IGAE,,2026-10-26T00:10:11.738148+00:00,PRINCIPAL
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lstm_resid,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",3600,168,5.0,42,S-ext T2,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-18T18:58:58.020538+00:00,PRINCIPAL
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lightgbm,"[""Exportacion""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Exp,cdef4c3,2026-10-18T17:28:26.773472+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lightgbm,"[""Generacion""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Gen,cdef4c3,2026-10-18T17:26:11.612302+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lightgbm,"[""IGAE""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_IGAE,cdef4c3,2026-10-18T17:25:05.197580+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lightgbm,"[""Importacion""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Imp,cdef4c3,2026-10-18T17:27:19.467527+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lightgbm,"[""Temperatura""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Temp,cdef4c3,2026-10-18T17:24:00.237354+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lightgbm,"[""Temperatura"", ""IGAE""]",336,168,10.0,42,S-ext T3 Temp+IGAE,,LightGBM_train336h_fh168h_Temp-IGAE,cdef4c3,2026-10-18T17:29:33.821959+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,lightgbm,"[""Temperatura"", ""Primarias"", ""Secundarias"", ""Terciarias"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",336,168,10.0,42,S-ext T1,,LightGBM_train336h_fh168h_Temp-Prim-Sec-Terc-IGAE-Gen-Imp-Exp,1b90bae,2026-10-18T16:47:08.831831+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,naive_trend_seasonal,[],3600,168,,42,S-ext T1,,Naive_Trend_Seasonal_train3600h_fh168h,7b2a0a9,2026-10-18T01:17:14.196703+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,naive_trend,[],3600,168,,42,S-ext T1 baseline ventana fija,,Naive_Trend_train3600h_fh168h,7b2a0a9,2026-10-18T01:15:35.925817+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,naive,[],3600,168,,42,S-ext T1 baseline ventana fija,,Naive_train3600h_fh168h,7b2a0a9,2026-10-18T01:14:04.231619+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,sarimax,"[""Exportacion""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Exp,38dba26,2026-10-20T20:26:02.790545+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,sarimax,"[""Generacion""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Gen,4db71a7,2026-10-19T20:48:55.788452+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,sarimax,"[""IGAE""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_IGAE,cdef4c3,2026-10-18T23:39:20.033478+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,sarimax,"[""Importacion""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Imp,4db71a7,2026-10-20T17:56:15.017661+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,sarimax,"[""Temperatura""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Temp,cdef4c3,2026-10-18T21:21:24.816058+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,sarimax,"[""Temperatura"", ""IGAE""]",1440,168,,42,S-ext T3 Temp+IGAE,,SARIMAX_train1440h_fh168h_Temp-IGAE,608ca6a,2026-10-21T19:01:59.993131+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,sarimax,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",1440,168,,42,S-ext T1,,SARIMAX_train1440h_fh168h_Temp-IGAE-Gen-Imp-Exp,cdef4c3,2026-10-18T16:51:09.908259+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,xgboost,"[""Exportacion""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Exp,cdef4c3,2026-10-18T17:19:26.928396+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,xgboost,"[""Generacion""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Gen,cdef4c3,2026-10-18T17:15:16.987101+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,xgboost,"[""IGAE""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_IGAE,cdef4c3,2026-10-18T17:13:12.158710+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,xgboost,"[""Importacion""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Imp,cdef4c3,2026-10-18T17:17:21.844992+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,xgboost,"[""Temperatura""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Temp,cdef4c3,2026-10-18T17:11:10.670520+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,xgboost,"[""Temperatura"", ""IGAE""]",336,168,10.0,42,S-ext T3 Temp+IGAE,,XGBoost_train336h_fh168h_Temp-IGAE,cdef4c3,2026-10-18T17:21:31.993986+00:00,PC
+S1,2026-04-26 00:00:00,2026-05-02 23:00:00,xgboost,"[""Temperatura"", ""Primarias"", ""Secundarias"", ""Terciarias"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",336,168,10.0,42,S-ext T1,,XGBoost_train336h_fh168h_Temp-Prim-Sec-Terc-IGAE-Gen-Imp-Exp,1b90bae,2026-10-18T16:17:13.911023+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,ar_resid_trend_seasonal,[],3600,168,,42,S-ext T1,,AR_Resid_Trend_Seasonal_train3600h_fh168h,f49a305,2026-10-18T01:43:12.753463+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,ar,[],3600,168,,42,S-ext T1 baseline ventana fija,,AR_train3600h_fh168h,f49a305,2026-10-18T01:51:51.028370+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,ensemble_stl,"[""Exportacion""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Exp,,2026-10-26T00:50:15.052286+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,ensemble_stl,"[""Generacion""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Gen,,2026-10-26T02:18:04.414690+00:00,W2
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,ensemble_stl,"[""IGAE""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_IGAE,,2026-10-26T00:22:57.539189+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,ensemble_stl,"[""Importacion""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Imp,,2026-10-26T01:57:39.806458+00:00,W3
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,ensemble_stl,"[""Temperatura""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Temp,,2026-10-26T01:51:03.614856+00:00,W2
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,ensemble_stl,"[""Temperatura"", ""IGAE""]",3600,168,5.0,42,S-ext T3 Temp+IGAE,,Ensemble_STL_train3600h_fh168h_Temp-IGAE,,2026-10-26T02:23:39.147410+00:00,W3
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,ensemble_stl,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",3600,168,5.0,42,S-ext T2,,Ensemble_STL_train3600h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-22T21:31:05.897664+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,fcnn,"[""Exportacion""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Exp,,2026-10-25T01:23:34.294575+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,fcnn,"[""Generacion""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Gen,,2026-10-25T00:33:29.882367+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,fcnn,"[""IGAE""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_IGAE,,2026-10-25T00:07:48.133741+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,fcnn,"[""Importacion""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Imp,,2026-10-25T00:58:00.710249+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,fcnn,"[""Temperatura""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Temp,,2026-10-24T23:42:59.014843+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,fcnn,"[""Temperatura"", ""IGAE""]",3600,168,5.0,42,S-ext T3 Temp+IGAE,,FCNN_train3600h_fh168h_Temp-IGAE,,2026-10-25T17:19:03.979236+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,fcnn,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",3600,168,5.0,42,S-ext T2,,FCNN_train3600h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-22T19:55:10.002108+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_direct,"[""Exportacion""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Exp,,2026-10-26T01:51:34.320258+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_direct,"[""Generacion""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Gen,,2026-10-26T02:50:13.023552+00:00,W3
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_direct,"[""IGAE""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_IGAE,,2026-10-26T14:25:10.362655+00:00,W2
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_direct,"[""Importacion""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Imp,,2026-10-26T01:17:47.634326+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_direct,"[""Temperatura""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Temp,,2026-10-26T02:44:38.847915+00:00,W2
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_direct,"[""Temperatura"", ""IGAE""]",2160,168,10.0,42,S-ext T3 Temp+IGAE,,LSTM_Directa_train2160h_fh168h_Temp-IGAE,,2026-10-26T14:29:26.764123+00:00,W3
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_direct,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",2160,168,10.0,42,S-ext T2,,LSTM_Directa_train2160h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-22T20:31:49.060966+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_resid,"[""Exportacion""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Exp,,2026-10-26T02:39:57.318360+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_resid,"[""Generacion""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Gen,,2026-10-26T02:25:22.129603+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_resid,"[""IGAE""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_IGAE,,2026-10-26T14:45:14.394864+00:00,W2
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_resid,"[""Importacion""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Imp,,2026-10-26T15:23:09.711344+00:00,W3
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_resid,"[""Temperatura""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Temp,,2026-10-26T14:56:31.693918+00:00,W3
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_resid,"[""Temperatura"", ""IGAE""]",3600,168,5.0,42,S-ext T3 Temp+IGAE,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Temp-IGAE,,2026-10-26T15:18:05.803835+00:00,W2
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lstm_resid,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",3600,168,5.0,42,S-ext T2,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-22T20:19:07.403212+00:00,PRINCIPAL
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lightgbm,"[""Exportacion""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Exp,cdef4c3,2026-10-18T17:48:04.341576+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lightgbm,"[""Generacion""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Gen,cdef4c3,2026-10-18T17:45:50.781682+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lightgbm,"[""IGAE""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_IGAE,cdef4c3,2026-10-18T17:44:44.582724+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lightgbm,"[""Importacion""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Imp,cdef4c3,2026-10-18T17:46:57.713096+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lightgbm,"[""Temperatura""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Temp,cdef4c3,2026-10-18T17:43:40.524482+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lightgbm,"[""Temperatura"", ""IGAE""]",336,168,10.0,42,S-ext T3 Temp+IGAE,,LightGBM_train336h_fh168h_Temp-IGAE,cdef4c3,2026-10-18T17:49:12.431084+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,lightgbm,"[""Temperatura"", ""Primarias"", ""Secundarias"", ""Terciarias"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",336,168,10.0,42,S-ext T1,,LightGBM_train336h_fh168h_Temp-Prim-Sec-Terc-IGAE-Gen-Imp-Exp,1b90bae,2026-10-18T16:47:52.856287+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,naive_trend_seasonal,[],3600,168,,42,S-ext T1,,Naive_Trend_Seasonal_train3600h_fh168h,f49a305,2026-10-18T01:37:26.058150+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,naive_trend,[],3600,168,,42,S-ext T1 baseline ventana fija,,Naive_Trend_train3600h_fh168h,f49a305,2026-10-18T01:35:18.053640+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,naive,[],3600,168,,42,S-ext T1 baseline ventana fija,,Naive_train3600h_fh168h,f49a305,2026-10-18T01:33:06.805285+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,sarimax,"[""Exportacion""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Exp,38dba26,2026-10-20T20:20:10.317662+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,sarimax,"[""Generacion""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Gen,397018c,2026-10-19T02:38:00.835327+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,sarimax,"[""IGAE""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_IGAE,cdef4c3,2026-10-19T00:05:40.350289+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,sarimax,"[""Importacion""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Imp,4db71a7,2026-10-20T18:10:25.619757+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,sarimax,"[""Temperatura""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Temp,cdef4c3,2026-10-18T22:10:34.449668+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,sarimax,"[""Temperatura"", ""IGAE""]",1440,168,,42,S-ext T3 Temp+IGAE,,SARIMAX_train1440h_fh168h_Temp-IGAE,608ca6a,2026-10-21T19:02:50.973847+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,sarimax,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",1440,168,,42,S-ext T1,,SARIMAX_train1440h_fh168h_Temp-IGAE-Gen-Imp-Exp,cdef4c3,2026-10-18T18:10:10.995907+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,xgboost,"[""Exportacion""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Exp,cdef4c3,2026-10-18T17:39:13.167704+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,xgboost,"[""Generacion""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Gen,cdef4c3,2026-10-18T17:34:55.008421+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,xgboost,"[""IGAE""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_IGAE,cdef4c3,2026-10-18T17:32:52.375343+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,xgboost,"[""Importacion""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Imp,cdef4c3,2026-10-18T17:37:05.032141+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,xgboost,"[""Temperatura""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Temp,cdef4c3,2026-10-18T17:30:50.345683+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,xgboost,"[""Temperatura"", ""IGAE""]",336,168,10.0,42,S-ext T3 Temp+IGAE,,XGBoost_train336h_fh168h_Temp-IGAE,cdef4c3,2026-10-18T17:41:23.197063+00:00,PC
+S2,2026-05-03 00:00:00,2026-05-09 23:00:00,xgboost,"[""Temperatura"", ""Primarias"", ""Secundarias"", ""Terciarias"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",336,168,10.0,42,S-ext T1,,XGBoost_train336h_fh168h_Temp-Prim-Sec-Terc-IGAE-Gen-Imp-Exp,1b90bae,2026-10-18T16:47:30.732890+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,ar_resid_trend_seasonal,[],3600,168,,42,S-ext T1,,AR_Resid_Trend_Seasonal_train3600h_fh168h,f49a305,2026-10-18T02:06:35.828441+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,ar,[],3600,168,,42,S-ext T1 baseline ventana fija,,AR_train3600h_fh168h,f49a305,2026-10-18T02:15:05.135611+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,ensemble_stl,"[""Exportacion""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Exp,,2026-10-26T16:22:22.603705+00:00,W2
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,ensemble_stl,"[""Generacion""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Gen,,2026-10-26T16:25:58.706482+00:00,W3
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,ensemble_stl,"[""IGAE""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_IGAE,,2026-10-26T15:49:57.728881+00:00,W3
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,ensemble_stl,"[""Importacion""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Imp,,2026-10-26T15:44:59.396243+00:00,W2
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,ensemble_stl,"[""Temperatura""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Temp,,2026-10-26T02:56:35.140997+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,ensemble_stl,"[""Temperatura"", ""IGAE""]",3600,168,5.0,42,S-ext T3 Temp+IGAE,,Ensemble_STL_train3600h_fh168h_Temp-IGAE,,2026-10-26T03:20:02.431392+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,ensemble_stl,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",3600,168,5.0,42,S-ext T2,,Ensemble_STL_train3600h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-24T19:19:59.648178+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,fcnn,"[""Exportacion""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Exp,,2026-10-26T04:53:42.524644+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,fcnn,"[""Generacion""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Gen,,2026-10-26T04:06:47.525865+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,fcnn,"[""IGAE""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_IGAE,,2026-10-26T03:43:47.650806+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,fcnn,"[""Importacion""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Imp,,2026-10-26T04:30:02.813547+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,fcnn,"[""Temperatura""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Temp,,2026-10-27T17:31:53.086676+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,fcnn,"[""Temperatura"", ""IGAE""]",3600,168,5.0,42,S-ext T3 Temp+IGAE,,FCNN_train3600h_fh168h_Temp-IGAE,,2026-10-26T05:08:28.792969+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,fcnn,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",3600,168,5.0,42,S-ext T2,,FCNN_train3600h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-22T21:56:45.791170+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_direct,"[""Exportacion""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Exp,,2026-10-26T13:27:03.231385+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_direct,"[""Generacion""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Gen,,2026-10-26T17:01:47.372473+00:00,W2
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_direct,"[""IGAE""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_IGAE,,2026-10-26T13:09:59.804687+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_direct,"[""Importacion""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Imp,,2026-10-26T19:58:48.996804+00:00,W3
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_direct,"[""Temperatura""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Temp,,2026-10-26T17:01:55.672135+00:00,W3
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_direct,"[""Temperatura"", ""IGAE""]",2160,168,10.0,42,S-ext T3 Temp+IGAE,,LSTM_Directa_train2160h_fh168h_Temp-IGAE,,2026-10-26T18:24:35.752330+00:00,W2
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_direct,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",2160,168,10.0,42,S-ext T2,,LSTM_Directa_train2160h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-24T18:31:03.594250+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_resid,"[""Exportacion""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Exp,,2026-10-26T14:20:44.666620+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_resid,"[""Generacion""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Gen,,2026-10-26T14:01:55.359198+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_resid,"[""IGAE""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_IGAE,,2026-10-26T20:15:35.788482+00:00,W2
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_resid,"[""Importacion""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Imp,,2026-10-26T20:13:00.147574+00:00,W3
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_resid,"[""Temperatura""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Temp,,2026-10-26T19:58:52.614418+00:00,W2
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_resid,"[""Temperatura"", ""IGAE""]",3600,168,5.0,42,S-ext T3 Temp+IGAE,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Temp-IGAE,,2026-10-26T20:32:12.714937+00:00,W3
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lstm_resid,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",3600,168,5.0,42,S-ext T2,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-22T22:19:50.344473+00:00,PRINCIPAL
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lightgbm,"[""Exportacion""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Exp,cdef4c3,2026-10-18T18:07:49.441700+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lightgbm,"[""Generacion""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Gen,cdef4c3,2026-10-18T18:05:32.950874+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lightgbm,"[""IGAE""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_IGAE,cdef4c3,2026-10-18T18:04:25.579439+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lightgbm,"[""Importacion""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Imp,cdef4c3,2026-10-18T18:06:40.184670+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lightgbm,"[""Temperatura""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Temp,cdef4c3,2026-10-18T18:03:21.001399+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lightgbm,"[""Temperatura"", ""IGAE""]",336,168,10.0,42,S-ext T3 Temp+IGAE,,LightGBM_train336h_fh168h_Temp-IGAE,cdef4c3,2026-10-18T18:08:56.288924+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,lightgbm,"[""Temperatura"", ""Primarias"", ""Secundarias"", ""Terciarias"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",336,168,10.0,42,S-ext T1,,LightGBM_train336h_fh168h_Temp-Prim-Sec-Terc-IGAE-Gen-Imp-Exp,cdef4c3,2026-10-18T16:49:31.243120+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,naive_trend_seasonal,[],3600,168,,42,S-ext T1,,Naive_Trend_Seasonal_train3600h_fh168h,f49a305,2026-10-18T02:00:54.512625+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,naive_trend,[],3600,168,,42,S-ext T1 baseline ventana fija,,Naive_Trend_train3600h_fh168h,f49a305,2026-10-18T01:58:50.795725+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,naive,[],3600,168,,42,S-ext T1 baseline ventana fija,,Naive_train3600h_fh168h,f49a305,2026-10-18T01:56:43.669825+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,sarimax,"[""Exportacion""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Exp,790ed1f,2026-10-23T20:20:04.965668+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,sarimax,"[""Generacion""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Gen,548cdef,2026-10-22T18:21:14.525226+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,sarimax,"[""IGAE""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_IGAE,548cdef,2026-10-22T17:54:16.614880+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,sarimax,"[""Importacion""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Imp,790ed1f,2026-10-22T20:42:06.410571+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,sarimax,"[""Temperatura""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Temp,608ca6a,2026-10-21T19:27:15.812088+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,sarimax,"[""Temperatura"", ""IGAE""]",1440,168,,42,S-ext T3 Temp+IGAE,,SARIMAX_train1440h_fh168h_Temp-IGAE,790ed1f,2026-10-24T00:57:53.062753+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,sarimax,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",1440,168,,42,S-ext T1,,SARIMAX_train1440h_fh168h_Temp-IGAE-Gen-Imp-Exp,cdef4c3,2026-10-18T18:41:01.555630+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,xgboost,"[""Exportacion""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Exp,cdef4c3,2026-10-18T17:58:49.754825+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,xgboost,"[""Generacion""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Gen,cdef4c3,2026-10-18T17:54:37.939205+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,xgboost,"[""IGAE""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_IGAE,cdef4c3,2026-10-18T17:52:34.995424+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,xgboost,"[""Importacion""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Imp,cdef4c3,2026-10-18T17:56:43.126387+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,xgboost,"[""Temperatura""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Temp,cdef4c3,2026-10-18T17:50:30.597606+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,xgboost,"[""Temperatura"", ""IGAE""]",336,168,10.0,42,S-ext T3 Temp+IGAE,,XGBoost_train336h_fh168h_Temp-IGAE,cdef4c3,2026-10-18T18:00:57.306253+00:00,PC
+S3,2026-05-10 00:00:00,2026-05-16 23:00:00,xgboost,"[""Temperatura"", ""Primarias"", ""Secundarias"", ""Terciarias"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",336,168,10.0,42,S-ext T1,,XGBoost_train336h_fh168h_Temp-Prim-Sec-Terc-IGAE-Gen-Imp-Exp,1b90bae,2026-10-18T16:48:43.999372+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,ar_resid_trend_seasonal,[],3600,168,,42,S-ext T1,,AR_Resid_Trend_Seasonal_train3600h_fh168h,228e482,2026-10-18T01:00:09.387954+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,ar,[],3600,168,,42,S-ext T1 baseline ventana fija,,AR_train3600h_fh168h,228e482,2026-10-18T01:03:51.486783+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,ensemble_stl,"[""Exportacion""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Exp,,2026-10-26T15:30:26.230953+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,ensemble_stl,"[""Generacion""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Gen,,2026-10-26T15:10:11.893085+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,ensemble_stl,"[""IGAE""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_IGAE,,2026-10-26T15:00:54.076113+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,ensemble_stl,"[""Importacion""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Imp,,2026-10-26T15:20:28.404402+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,ensemble_stl,"[""Temperatura""]",3600,168,5.0,42,S-ext T3 individual,,Ensemble_STL_train3600h_fh168h_Temp,,2026-10-26T14:50:42.332212+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,ensemble_stl,"[""Temperatura"", ""IGAE""]",3600,168,5.0,42,S-ext T3 Temp+IGAE,,Ensemble_STL_train3600h_fh168h_Temp-IGAE,,2026-10-26T15:39:47.781191+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,ensemble_stl,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",3600,168,5.0,42,S-ext T2,,Ensemble_STL_train3600h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-22T18:20:17.455253+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,fcnn,"[""Exportacion""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Exp,,2026-10-19T15:18:35.295344+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,fcnn,"[""Generacion""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Gen,,2026-10-19T03:11:51.221195+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,fcnn,"[""IGAE""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_IGAE,,2026-10-19T02:44:15.683936+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,fcnn,"[""Importacion""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Imp,,2026-10-19T14:44:18.545499+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,fcnn,"[""Temperatura""]",3600,168,5.0,42,S-ext T3 individual,,FCNN_train3600h_fh168h_Temp,,2026-10-19T02:15:19.143086+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,fcnn,"[""Temperatura"", ""IGAE""]",3600,168,5.0,42,S-ext T3 Temp+IGAE,,FCNN_train3600h_fh168h_Temp-IGAE,,2026-10-20T23:33:30.312791+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,fcnn,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",3600,168,5.0,42,S-ext T2,,FCNN_train3600h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-18T16:41:06.957813+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_direct,"[""Exportacion""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Exp,,2026-10-19T01:35:48.218104+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_direct,"[""Generacion""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Gen,,2026-10-19T00:25:25.844085+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_direct,"[""IGAE""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_IGAE,,2026-10-18T23:50:36.176692+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_direct,"[""Importacion""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Imp,,2026-10-19T00:58:37.177973+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_direct,"[""Temperatura""]",2160,168,10.0,42,S-ext T3 individual,,LSTM_Directa_train2160h_fh168h_Temp,,2026-10-18T23:33:56.979945+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_direct,"[""Temperatura"", ""IGAE""]",2160,168,10.0,42,S-ext T3 Temp+IGAE,,LSTM_Directa_train2160h_fh168h_Temp-IGAE,,2026-10-20T22:43:58.900986+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_direct,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",2160,168,10.0,42,S-ext T2,,LSTM_Directa_train2160h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-18T17:10:37.003616+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_resid,"[""Exportacion""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Exp,,2026-10-20T22:26:31.768767+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_resid,"[""Generacion""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Gen,,2026-10-20T21:54:17.665477+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_resid,"[""IGAE""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_IGAE,,2026-10-20T21:38:38.668817+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_resid,"[""Importacion""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Imp,,2026-10-20T22:07:35.688525+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_resid,"[""Temperatura""]",3600,168,5.0,42,S-ext T3 individual,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Temp,,2026-10-20T21:22:58.053508+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_resid,"[""Temperatura"", ""IGAE""]",3600,168,5.0,42,S-ext T3 Temp+IGAE,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Temp-IGAE,,2026-10-26T15:49:23.294455+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lstm_resid,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",3600,168,5.0,42,S-ext T2,,LSTM_Resid_Trend_Seasonal_train3600h_fh168h_Temp-IGAE-Gen-Imp-Exp,,2026-10-18T16:59:21.114909+00:00,PRINCIPAL
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lightgbm,"[""Exportacion""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Exp,cdef4c3,2026-10-18T17:08:44.026715+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lightgbm,"[""Generacion""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Gen,cdef4c3,2026-10-18T17:06:26.688695+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lightgbm,"[""IGAE""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_IGAE,cdef4c3,2026-10-18T17:04:56.315319+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lightgbm,"[""Importacion""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Imp,cdef4c3,2026-10-18T17:07:36.355299+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lightgbm,"[""Temperatura""]",336,168,10.0,42,S-ext T3 individual,,LightGBM_train336h_fh168h_Temp,cdef4c3,2026-10-18T17:03:49.862756+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lightgbm,"[""Temperatura"", ""IGAE""]",336,168,10.0,42,S-ext T3 Temp+IGAE,,LightGBM_train336h_fh168h_Temp-IGAE,cdef4c3,2026-10-18T17:09:50.932316+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,lightgbm,"[""Temperatura"", ""Primarias"", ""Secundarias"", ""Terciarias"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",336,168,10.0,42,S-ext T1,,LightGBM_train336h_fh168h_Temp-Prim-Sec-Terc-IGAE-Gen-Imp-Exp,1b90bae,2026-10-18T16:12:41.616428+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,naive_trend_seasonal,[],3600,168,,42,S-ext T1,,Naive_Trend_Seasonal_train3600h_fh168h,228e482,2026-10-18T00:58:11.026913+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,naive_trend,[],3600,168,,42,S-ext T1 baseline ventana fija,,Naive_Trend_train3600h_fh168h,228e482,2026-10-18T00:57:40.889273+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,naive,[],3600,168,,42,S-ext T1 baseline ventana fija,,Naive_train3600h_fh168h,228e482,2026-10-18T00:57:10.035243+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,sarimax,"[""Exportacion""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Exp,4db71a7,2026-10-20T17:54:30.595906+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,sarimax,"[""Generacion""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Gen,cdef4c3,2026-10-19T00:31:04.096383+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,sarimax,"[""IGAE""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_IGAE,cdef4c3,2026-10-18T22:15:06.252551+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,sarimax,"[""Importacion""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Imp,4db71a7,2026-10-19T20:48:29.574026+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,sarimax,"[""Temperatura""]",1440,168,,42,S-ext T3 individual,,SARIMAX_train1440h_fh168h_Temp,cdef4c3,2026-10-18T20:24:25.537912+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,sarimax,"[""Temperatura"", ""IGAE""]",1440,168,,42,S-ext T3 Temp+IGAE,,SARIMAX_train1440h_fh168h_Temp-IGAE,608ca6a,2026-10-21T19:01:38.819702+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,sarimax,"[""Temperatura"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",1440,168,,42,S-ext T1,,SARIMAX_train1440h_fh168h_Temp-IGAE-Gen-Imp-Exp,cdef4c3,2026-10-18T16:50:21.335443+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,xgboost,"[""Exportacion""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Exp,cdef4c3,2026-10-18T16:59:10.866410+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,xgboost,"[""Generacion""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Gen,cdef4c3,2026-10-18T16:55:03.045316+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,xgboost,"[""IGAE""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_IGAE,cdef4c3,2026-10-18T16:53:13.430245+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,xgboost,"[""Importacion""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Imp,cdef4c3,2026-10-18T16:57:19.566207+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,xgboost,"[""Temperatura""]",336,168,10.0,42,S-ext T3 individual,,XGBoost_train336h_fh168h_Temp,cdef4c3,2026-10-18T16:51:30.730557+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,xgboost,"[""Temperatura"", ""IGAE""]",336,168,10.0,42,S-ext T3 Temp+IGAE,,XGBoost_train336h_fh168h_Temp-IGAE,cdef4c3,2026-10-18T17:01:02.363249+00:00,PC
+S4,2026-05-17 00:00:00,2026-05-23 23:00:00,xgboost,"[""Temperatura"", ""Primarias"", ""Secundarias"", ""Terciarias"", ""IGAE"", ""Generacion"", ""Importacion"", ""Exportacion""]",336,168,10.0,42,S-ext T1,,XGBoost_train336h_fh168h_Temp-Prim-Sec-Terc-IGAE-Gen-Imp-Exp,6f2d830,2026-10-18T16:07:40.393586+00:00,PC
